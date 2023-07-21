@@ -56,9 +56,10 @@ const Search = () => {
       className="
         border-[1px] 
         w-full 
+        bg-brand-50
         md:w-auto 
         py-2 
-        rounded-full 
+        rounded-lg
         shadow-sm 
         hover:shadow-md 
         transition 
@@ -113,7 +114,7 @@ const Search = () => {
             className="
               p-2 
               bg-brand-200
-              rounded-full 
+              rounded-lg 
               text-white
             "
           >

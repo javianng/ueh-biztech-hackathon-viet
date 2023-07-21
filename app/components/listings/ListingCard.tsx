@@ -79,7 +79,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
         <div
           className="
             aspect-square 
-            w-full 
+            w-full
             relative 
             overflow-hidden 
             rounded-xl
