@@ -12,7 +12,7 @@ import useSearchModal from "@/app/hooks/useSearchModal";
 import Modal from "./Modal";
 import Calendar from "../inputs/Calendar";
 import Counter from "../inputs/Counter";
-import CountrySelect, { 
+import CountrySelect, {
   CountrySelectValue
 } from "../inputs/CountrySelect";
 import Heading from '../Heading';
@@ -40,8 +40,8 @@ const SearchModal = () => {
     key: 'selection'
   });
 
-  const Map = useMemo(() => dynamic(() => import('../Map'), { 
-    ssr: false 
+  const Map = useMemo(() => dynamic(() => import('../Map'), {
+    ssr: false
   }), [location]);
 
   const onBack = useCallback(() => {
@@ -87,19 +87,19 @@ const SearchModal = () => {
     setStep(STEPS.LOCATION);
     searchModal.onClose();
     router.push(url);
-  }, 
-  [
-    step, 
-    searchModal, 
-    location, 
-    router, 
-    guestCount, 
-    roomCount,
-    dateRange,
-    onNext,
-    bathroomCount,
-    params
-  ]);
+  },
+    [
+      step,
+      searchModal,
+      location,
+      router,
+      guestCount,
+      roomCount,
+      dateRange,
+      onNext,
+      bathroomCount,
+      params
+    ]);
 
   const actionLabel = useMemo(() => {
     if (step === STEPS.INFO) {
@@ -120,13 +120,13 @@ const SearchModal = () => {
   let bodyContent = (
     <div className="flex flex-col gap-8">
       <Heading
-        title="Where do you wanna go?"
-        subtitle="Find the perfect location!"
+        title="Where do you need your drone?"
+        subtitle="Locate your farm!"
       />
-      <CountrySelect 
-        value={location} 
-        onChange={(value) => 
-          setLocation(value as CountrySelectValue)} 
+      <CountrySelect
+        value={location}
+        onChange={(value) =>
+          setLocation(value as CountrySelectValue)}
       />
       <hr />
       <Map center={location?.latlng} />
@@ -137,8 +137,8 @@ const SearchModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="When do you plan to go?"
-          subtitle="Make sure everyone is free!"
+          title="When do you need the drone?"
+          subtitle="Make sure your crops are ready!"
         />
         <Calendar
           onChange={(value) => setDateRange(value.selection)}
@@ -153,30 +153,22 @@ const SearchModal = () => {
       <div className="flex flex-col gap-8">
         <Heading
           title="More information"
-          subtitle="Find your perfect place!"
+          subtitle="Find your perfect drone!"
         />
-        <Counter 
+        <Counter
           onChange={(value) => setGuestCount(value)}
           value={guestCount}
-          title="Guests" 
-          subtitle="How many guests are coming?"
+          title="Average Hour per Hectar"
+          subtitle="How many hours does the drone take to cover 1 hectar?"
         />
         <hr />
-        <Counter 
+        <Counter
           onChange={(value) => setRoomCount(value)}
           value={roomCount}
-          title="Rooms" 
-          subtitle="How many rooms do you need?"
-        />        
-        <hr />
-        <Counter 
-          onChange={(value) => {
-            setBathroomCount(value)
-          }}
-          value={bathroomCount}
-          title="Bathrooms"
-          subtitle="How many bahtrooms do you need?"
+          title="Average Hectar per Charge"
+          subtitle="How many hectar can the drone run on a full charge?"
         />
+        <hr />
       </div>
     )
   }
