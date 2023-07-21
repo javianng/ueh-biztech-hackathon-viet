@@ -17,9 +17,9 @@ const FavoritesClient: React.FC<FavoritesClientProps> = ({
     <Container>
       <Heading
         title="Favorites"
-        subtitle="List of places you favorited!"
+        subtitle="List of drones you favorited!"
       />
-      <div 
+      <div
         className="
           mt-10
           grid 
@@ -41,7 +41,7 @@ const FavoritesClient: React.FC<FavoritesClientProps> = ({
         ))}
       </div>
     </Container>
-   );
+  );
 }
- 
+
 export default FavoritesClient;

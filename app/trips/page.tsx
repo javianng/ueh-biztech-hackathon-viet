@@ -27,8 +27,8 @@ const TripsPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No trips found"
-          subtitle="Looks like you havent reserved any trips."
+          title="No drones found"
+          subtitle="Looks like you havent reserved any drones."
         />
       </ClientOnly>
     );
@@ -43,5 +43,5 @@ const TripsPage = async () => {
     </ClientOnly>
   );
 }
- 
+
 export default TripsPage;

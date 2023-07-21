@@ -21,7 +21,7 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
 
   const handleClick = useCallback(() => {
     let currentQuery = {};
-    
+
     if (params) {
       currentQuery = qs.parse(params.toString())
     }
@@ -43,7 +43,7 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
     router.push(url);
   }, [label, router, params]);
 
-  return ( 
+  return (
     <div
       onClick={handleClick}
       className={`
@@ -54,11 +54,11 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
         gap-2
         p-3
         border-b-2
-        hover:text-neutral-800
+        hover:text-brand-300
         transition
         cursor-pointer
-        ${selected ? 'border-b-neutral-800' : 'border-transparent'}
-        ${selected ? 'text-neutral-800' : 'text-neutral-500'}
+        ${selected ? 'border-b-brand-300' : 'border-transparent'}
+        ${selected ? 'text-brand-300' : 'text-brand-100'}
       `}
     >
       <Icon size={26} />
@@ -66,7 +66,7 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
         {label}
       </div>
     </div>
-   );
+  );
 }
- 
+
 export default CategoryBox;

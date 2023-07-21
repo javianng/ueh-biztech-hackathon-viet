@@ -23,8 +23,8 @@ const PropertiesPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No properties found"
-          subtitle="Looks like you have no properties."
+          title="No drones found"
+          subtitle="Looks like you have no drones."
         />
       </ClientOnly>
     );
@@ -39,5 +39,5 @@ const PropertiesPage = async () => {
     </ClientOnly>
   );
 }
- 
+
 export default PropertiesPage;

@@ -2,9 +2,9 @@
 
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
-import { 
-  FieldValues, 
-  SubmitHandler, 
+import {
+  FieldValues,
+  SubmitHandler,
   useForm
 } from 'react-hook-form';
 import dynamic from 'next/dynamic'
@@ -38,8 +38,8 @@ const RentModal = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [step, setStep] = useState(STEPS.CATEGORY);
 
-  const { 
-    register, 
+  const {
+    register,
     handleSubmit,
     setValue,
     watch,
@@ -68,8 +68,8 @@ const RentModal = () => {
   const bathroomCount = watch('bathroomCount');
   const imageSrc = watch('imageSrc');
 
-  const Map = useMemo(() => dynamic(() => import('../Map'), { 
-    ssr: false 
+  const Map = useMemo(() => dynamic(() => import('../Map'), {
+    ssr: false
   }), [location]);
 
 
@@ -93,23 +93,23 @@ const RentModal = () => {
     if (step !== STEPS.PRICE) {
       return onNext();
     }
-    
+
     setIsLoading(true);
 
     axios.post('/api/listings', data)
-    .then(() => {
-      toast.success('Listing created!');
-      router.refresh();
-      reset();
-      setStep(STEPS.CATEGORY)
-      rentModal.onClose();
-    })
-    .catch(() => {
-      toast.error('Something went wrong.');
-    })
-    .finally(() => {
-      setIsLoading(false);
-    })
+      .then(() => {
+        toast.success('Listing created!');
+        router.refresh();
+        reset();
+        setStep(STEPS.CATEGORY)
+        rentModal.onClose();
+      })
+      .catch(() => {
+        toast.error('Something went wrong.');
+      })
+      .finally(() => {
+        setIsLoading(false);
+      })
   }
 
   const actionLabel = useMemo(() => {
@@ -131,10 +131,10 @@ const RentModal = () => {
   let bodyContent = (
     <div className="flex flex-col gap-8">
       <Heading
-        title="Which of these best describes your place?"
+        title="Which of these best describes your drone?"
         subtitle="Pick a category"
       />
-      <div 
+      <div
         className="
           grid 
           grid-cols-1 
@@ -147,7 +147,7 @@ const RentModal = () => {
         {categories.map((item) => (
           <div key={item.label} className="col-span-1">
             <CategoryInput
-              onClick={(category) => 
+              onClick={(category) =>
                 setCustomValue('category', category)}
               selected={category === item.label}
               label={item.label}
@@ -163,12 +163,12 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Where is your place located?"
-          subtitle="Help guests find you!"
+          title="Where is your drone located?"
+          subtitle="Help other farmers find you!"
         />
-        <CountrySelect 
-          value={location} 
-          onChange={(value) => setCustomValue('location', value)} 
+        <CountrySelect
+          value={location}
+          onChange={(value) => setCustomValue('location', value)}
         />
         <Map center={location?.latlng} />
       </div>
@@ -179,28 +179,21 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Share some basics about your place"
+          title="Share some basics about your drone"
           subtitle="What amenitis do you have?"
         />
-        <Counter 
+        <Counter
           onChange={(value) => setCustomValue('guestCount', value)}
           value={guestCount}
-          title="Guests" 
-          subtitle="How many guests do you allow?"
+          title="Average Hour per Hectar"
+          subtitle="How many hours does the drone take to cover 1 hectar??"
         />
         <hr />
-        <Counter 
+        <Counter
           onChange={(value) => setCustomValue('roomCount', value)}
           value={roomCount}
-          title="Rooms" 
-          subtitle="How many rooms do you have?"
-        />
-        <hr />
-        <Counter 
-          onChange={(value) => setCustomValue('bathroomCount', value)}
-          value={bathroomCount}
-          title="Bathrooms" 
-          subtitle="How many bathrooms do you have?"
+          title="Average Hectar per Charge"
+          subtitle="How many hectar can the drone run on a full charge?"
         />
       </div>
     )
@@ -210,8 +203,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Add a photo of your place"
-          subtitle="Show guests what your place looks like!"
+          title="Add a photo of your drone"
+          subtitle="Show other farmers what your drone looks like!"
         />
         <ImageUpload
           onChange={(value) => setCustomValue('imageSrc', value)}
@@ -254,13 +247,13 @@ const RentModal = () => {
       <div className="flex flex-col gap-8">
         <Heading
           title="Now, set your price"
-          subtitle="How much do you charge per night?"
+          subtitle="How much do you charge per day?"
         />
         <Input
           id="price"
           label="Price"
-          formatPrice 
-          type="number" 
+          formatPrice
+          type="number"
           disabled={isLoading}
           register={register}
           errors={errors}
@@ -274,7 +267,7 @@ const RentModal = () => {
     <Modal
       disabled={isLoading}
       isOpen={rentModal.isOpen}
-      title="Airbnb your home!"
+      title="Rent your drone!"
       actionLabel={actionLabel}
       onSubmit={handleSubmit(onSubmit)}
       secondaryActionLabel={secondaryActionLabel}
