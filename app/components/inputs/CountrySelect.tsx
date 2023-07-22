@@ -23,10 +23,10 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
 }) => {
   const { getAll } = useCountries();
 
-  return ( 
+  return (
     <div>
       <Select
-        placeholder="Anywhere"
+        placeholder="Bất cứ nơi đâu"
         isClearable
         options={getAll()}
         value={value}
@@ -59,7 +59,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
         })}
       />
     </div>
-   );
+  );
 }
- 
+
 export default CountrySelect;

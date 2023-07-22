@@ -23,8 +23,8 @@ const PropertiesPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No drones found"
-          subtitle="Looks like you have no drones."
+          title="Không tìm thấy máy bay không người lái"
+          subtitle="Có vẻ như bạn không có máy bay không người lái nào."
         />
       </ClientOnly>
     );

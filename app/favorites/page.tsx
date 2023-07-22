@@ -15,8 +15,8 @@ const ListingPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No favorites found"
-          subtitle="Looks like you have no favorite listings."
+          title="Không tìm thấy mục yêu thích nào"
+          subtitle="Có vẻ như bạn chưa có danh sách yêu thích nào."
         />
       </ClientOnly>
     );
@@ -31,5 +31,5 @@ const ListingPage = async () => {
     </ClientOnly>
   );
 }
- 
+
 export default ListingPage;

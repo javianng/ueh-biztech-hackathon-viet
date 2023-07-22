@@ -120,8 +120,8 @@ const SearchModal = () => {
   let bodyContent = (
     <div className="flex flex-col gap-8">
       <Heading
-        title="Where do you need your drone?"
-        subtitle="Locate your farm!"
+        title="Bạn cần xài máy bay không người lái của bạn ở đâu?"
+        subtitle="Tìm địa điểm trang trại của bạn!"
       />
       <CountrySelect
         value={location}
@@ -137,8 +137,8 @@ const SearchModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="When do you need the drone?"
-          subtitle="Make sure your crops are ready!"
+          title="Khi nào bạn cần máy bay không người lái?"
+          subtitle="Đảm bảo cây trồng của bạn đã sẵn sàng!"
         />
         <Calendar
           onChange={(value) => setDateRange(value.selection)}
@@ -152,21 +152,21 @@ const SearchModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="More information"
-          subtitle="Find your perfect drone!"
+          title="Thông tin thêm"
+          subtitle="Tìm chiếc drone hoàn hảo cho bạn!"
         />
         <Counter
           onChange={(value) => setGuestCount(value)}
           value={guestCount}
-          title="Average Hour per Hectar"
-          subtitle="How many hours does the drone take to cover 1 hectar?"
+          title="Số giờ trung bình mỗi héc-ta"
+          subtitle="Máy bay không người lái mất bao lâu để bay qua 1 ha?"
         />
         <hr />
         <Counter
           onChange={(value) => setRoomCount(value)}
           value={roomCount}
-          title="Average Hectar per Charge"
-          subtitle="How many hectar can the drone run on a full charge?"
+          title="Diện tích trung bình mỗi lần sạc"
+          subtitle="Máy bay không người lái có thể bay được bao nhiêu ha trên một lần sạc đầy?"
         />
         <hr />
       </div>

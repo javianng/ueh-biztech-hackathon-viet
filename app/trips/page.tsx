@@ -27,8 +27,8 @@ const TripsPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No drones found"
-          subtitle="Looks like you havent reserved any drones."
+          title="Không tìm thấy máy bay không người lái"
+          subtitle="Có vẻ như bạn chưa đặt bất kỳ máy bay không người lái nào."
         />
       </ClientOnly>
     );

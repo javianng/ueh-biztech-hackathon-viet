@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
             cursor-pointer
           "
         >
-          Rent your drone
+          Cho thuê drone của bạn
         </div>
         <div
           onClick={toggleOpen}
@@ -103,23 +103,23 @@ const UserMenu: React.FC<UserMenuProps> = ({
             {currentUser ? (
               <>
                 <MenuItem
-                  label="Past drones"
+                  label="Các drone trước đây"
                   onClick={() => router.push('/trips')}
                 />
                 <MenuItem
-                  label="My favorites"
+                  label="Yêu thích của tôi"
                   onClick={() => router.push('/favorites')}
                 />
                 <MenuItem
-                  label="My bookings"
+                  label="Đặt chỗ của tôi"
                   onClick={() => router.push('/reservations')}
                 />
                 <MenuItem
-                  label="My drones"
+                  label="Các drone của tôi"
                   onClick={() => router.push('/properties')}
                 />
                 <MenuItem
-                  label="Rent your drone"
+                  label="Cho thuê drone của bạn"
                   onClick={rentModal.onOpen}
                 />
                 <hr />

@@ -13,34 +13,34 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Plant Monitoring',
+    label: 'Giám sát thực vật',
     icon: PiPlantLight,
-    description: 'This drone monitors plants!',
+    description: 'Con drone này giám sát các loại thực vật!',
   },
   {
-    label: 'Field Monitoring',
+    label: 'Giám sát trường đồng',
     icon: GiPlantRoots,
-    description: 'This drone monitors fields.',
+    description: 'Con drone này giám sát các cánh đồng.',
   },
   {
-    label: 'Seeding, Planting',
+    label: 'Gieo trồng',
     icon: TbBrandSnapseed,
-    description: 'This drone plants and seeds!',
+    description: 'Con drone này gieo trồng cây!',
   },
   {
-    label: 'Spray Application',
+    label: 'Phun thuốc',
     icon: BiSprayCan,
-    description: 'This drone sprays water!',
+    description: 'Con drone này phun nước!',
   },
   {
-    label: 'Security Surveillance',
+    label: 'Giám sát an ninh',
     icon: MdOutlineSecurity,
-    description: 'This drone does surveillance!',
+    description: 'Con drone này thực hiện giám sát an ninh!',
   },
   {
-    label: 'Drone Pollination',
+    label: 'Gieo phấn bằng drone"',
     icon: GiBee,
-    description: 'This drone pollinates plants!',
+    description: 'Con drone này gieo phấn vào các cây!',
   },
 ]
 

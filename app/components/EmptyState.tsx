@@ -12,14 +12,14 @@ interface EmptyStateProps {
 }
 
 const EmptyState: React.FC<EmptyStateProps> = ({
-  title = "No exact matches",
-  subtitle = "Try changing or removing some of your filters.",
+  title = "Không tìm thấy kết quả chính xác",
+  subtitle = "Hãy thử thay đổi hoặc xóa bớt một số bộ lọc của bạn.",
   showReset
 }) => {
   const router = useRouter();
 
-  return ( 
-    <div 
+  return (
+    <div
       className="
         h-[60vh]
         flex 
@@ -44,7 +44,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({
         )}
       </div>
     </div>
-   );
+  );
 }
- 
+
 export default EmptyState;

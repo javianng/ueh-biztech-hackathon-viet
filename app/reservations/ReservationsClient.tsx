@@ -42,8 +42,8 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
   return (
     <Container>
       <Heading
-        title="Reservations"
-        subtitle="Bookings on your drones"
+        title="Đặt chỗ"
+        subtitle="Đặt chỗ trên các máy bay không người lái của bạn"
       />
       <div
         className="

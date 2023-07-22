@@ -19,11 +19,11 @@ export default function Footer() {
                         <Copyright />
                     </div>
                     <div className="space-x-2">
-                        <Link href="/" className="hover:underline">Home</Link>
-                        <Link href="/ContactUs" className="hover:underline">Contact Us</Link>
-                        <Link href="/HelpCentre" className="hover:underline">Help Centre</Link>
-                        <Link href="/Terms" className="hover:underline">Terms</Link>
-                        <Link href="/Privacy" className="hover:underline">Privacy</Link>
+                        <Link href="/" className="hover:underline">Nhà</Link>
+                        <Link href="/ContactUs" className="hover:underline">Liên hệ với</Link>
+                        <Link href="/HelpCentre" className="hover:underline">Trung tâm trợ giúp</Link>
+                        <Link href="/Terms" className="hover:underline">Điều khoản</Link>
+                        <Link href="/Privacy" className="hover:underline">Sự riêng tư</Link>
                     </div>
                 </div>
             </Container >

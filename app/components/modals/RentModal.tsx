@@ -114,10 +114,10 @@ const RentModal = () => {
 
   const actionLabel = useMemo(() => {
     if (step === STEPS.PRICE) {
-      return 'Create'
+      return 'Tạo'
     }
 
-    return 'Next'
+    return 'Tiếp theo'
   }, [step]);
 
   const secondaryActionLabel = useMemo(() => {
@@ -125,14 +125,14 @@ const RentModal = () => {
       return undefined
     }
 
-    return 'Back'
+    return 'Quay lại'
   }, [step]);
 
   let bodyContent = (
     <div className="flex flex-col gap-8">
       <Heading
-        title="Which of these best describes your drone?"
-        subtitle="Pick a category"
+        title="Cái nào mô tả chiếc máy bay không người lái của bạn tốt nhất?"
+        subtitle="Chọn một danh mục"
       />
       <div
         className="
@@ -163,8 +163,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Where is your drone located?"
-          subtitle="Help other farmers find you!"
+          title="Máy bay không người lái của bạn đặt ở đâu?"
+          subtitle="Giúp những nông dân khác tìm thấy bạn!"
         />
         <CountrySelect
           value={location}
@@ -179,21 +179,21 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Share some basics about your drone"
-          subtitle="What amenitis do you have?"
+          title="Chia sẻ một số kiến thức cơ bản về máy bay không người lái của bạn"
+          subtitle="Bạn có những tiện nghi gì?"
         />
         <Counter
           onChange={(value) => setCustomValue('guestCount', value)}
           value={guestCount}
-          title="Average Hour per Hectar"
-          subtitle="How many hours does the drone take to cover 1 hectar??"
+          title="Số giờ trung bình trên một hecta"
+          subtitle="Máy bay không người lái mất bao lâu để bay qua 1 hecta?"
         />
         <hr />
         <Counter
           onChange={(value) => setCustomValue('roomCount', value)}
           value={roomCount}
-          title="Average Hectar per Charge"
-          subtitle="How many hectar can the drone run on a full charge?"
+          title="Số hecta trung bình cho mỗi lần sạc pin đầy"
+          subtitle="Máy bay không người lái có thể bay được bao nhiêu hecta khi pin đầy?"
         />
       </div>
     )
@@ -203,8 +203,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Add a photo of your drone"
-          subtitle="Show other farmers what your drone looks like!"
+          title="Thêm một bức ảnh của drone của bạn"
+          subtitle="Cho những người nông dân khác xem hình ảnh drone của bạn như thế nào!"
         />
         <ImageUpload
           onChange={(value) => setCustomValue('imageSrc', value)}
@@ -218,12 +218,12 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="What is your drone's model?"
-          subtitle="Keep it as accurate as possible!"
+          title="Máy bay không người lái của bạn là loại gì?"
+          subtitle="Hãy giữ nó chính xác nhất có thể!"
         />
         <Input
           id="title"
-          label="Model"
+          label="Mẫu"
           disabled={isLoading}
           register={register}
           errors={errors}
@@ -232,7 +232,7 @@ const RentModal = () => {
         <hr />
         <Input
           id="description"
-          label="Other Details"
+          label="Chi tiết khác"
           disabled={isLoading}
           register={register}
           errors={errors}
@@ -246,8 +246,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Now, set your price"
-          subtitle="How much do you charge per day?"
+          title="Bây giờ, hãy đặt giá của bạn"
+          subtitle="Bạn tính phí bao nhiêu mỗi ngày?"
         />
         <Input
           id="price"
@@ -267,7 +267,7 @@ const RentModal = () => {
     <Modal
       disabled={isLoading}
       isOpen={rentModal.isOpen}
-      title="Rent your drone!"
+      title="Cho thuê drone của bạn!"
       actionLabel={actionLabel}
       onSubmit={handleSubmit(onSubmit)}
       secondaryActionLabel={secondaryActionLabel}

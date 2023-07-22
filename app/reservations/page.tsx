@@ -27,8 +27,8 @@ const ReservationsPage = async () => {
     return (
       <ClientOnly>
         <EmptyState
-          title="No reservations found"
-          subtitle="Looks like you have no reservations on your drones."
+          title="Không tìm thấy bất kỳ đặt chỗ nào."
+          subtitle="Có vẻ như bạn chưa đặt chỗ cho bất kỳ máy bay không người lái nào."
         />
       </ClientOnly>
     );

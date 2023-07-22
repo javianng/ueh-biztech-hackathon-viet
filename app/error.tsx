@@ -13,12 +13,12 @@ const ErrorState: React.FC<ErrorStateProps> = ({ error }) => {
     console.error(error);
   }, [error]);
 
-  return ( 
+  return (
     <EmptyState
-      title="Uh Oh"
-      subtitle="Something went wrong!"
+      title="Ồ không"
+      subtitle="Đã xảy ra sự cố!"
     />
-   );
+  );
 }
- 
+
 export default ErrorState;

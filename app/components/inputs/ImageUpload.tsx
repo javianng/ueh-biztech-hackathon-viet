@@ -57,7 +57,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
               size={50}
             />
             <div className="font-semibold text-lg">
-              Click to upload
+              Nhấn để tải lên
             </div>
             {value && (
               <div className="

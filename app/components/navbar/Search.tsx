@@ -23,7 +23,7 @@ const Search = () => {
       return getByValue(locationValue as string)?.label;
     }
 
-    return 'Anywhere';
+    return 'Bất cứ đâu';
   }, [locationValue, getByValue]);
 
   const durationLabel = useMemo(() => {
@@ -36,18 +36,18 @@ const Search = () => {
         diff = 1;
       }
 
-      return `${diff} Days`;
+      return `${diff} Ngày`;
     }
 
-    return 'Any Week'
+    return 'Bất kỳ tuần nào'
   }, [startDate, endDate]);
 
   const guestLabel = useMemo(() => {
     if (guestCount) {
-      return `${guestCount} Hour per Hectar`;
+      return `${guestCount} Giờ trên hecta`;
     }
 
-    return 'Add Hour per Hectar';
+    return 'Thêm giờ trên mỗi hecta';
   }, [guestCount]);
 
   return (
