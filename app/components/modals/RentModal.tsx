@@ -163,8 +163,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Máy bay không người lái của bạn đặt ở đâu?"
-          subtitle="Giúp những nông dân khác tìm thấy bạn!"
+          title="Tìm kiếm Drone ở gần bạn?"
+          subtitle="Nơi cung cấp drone ở gần bạn!"
         />
         <CountrySelect
           value={location}
@@ -203,8 +203,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Thêm một bức ảnh của drone của bạn"
-          subtitle="Cho những người nông dân khác xem hình ảnh drone của bạn như thế nào!"
+          title="Thêm ảnh mẫu Drone bạn tìm kiếm"
+          subtitle="Hãy cho chúng tôi thấy mẫu drone mà bạn muốn nhé!"
         />
         <ImageUpload
           onChange={(value) => setCustomValue('imageSrc', value)}
@@ -218,8 +218,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Máy bay không người lái của bạn là loại gì?"
-          subtitle="Hãy giữ nó chính xác nhất có thể!"
+          title="Mẫu Drone của bạn?"
+          subtitle="Miêu tả chi tiết!"
         />
         <Input
           id="title"
@@ -232,7 +232,7 @@ const RentModal = () => {
         <hr />
         <Input
           id="description"
-          label="Chi tiết khác"
+          label="Những chi tiết khác"
           disabled={isLoading}
           register={register}
           errors={errors}
@@ -246,8 +246,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Bây giờ, hãy đặt giá của bạn"
-          subtitle="Bạn tính phí bao nhiêu mỗi ngày?"
+          title="Mức giá bạn muốn cho thuê?"
+          subtitle="Bạn muốn để mức giá bao nhiêu/ngày?"
         />
         <Input
           id="price"
@@ -267,7 +267,7 @@ const RentModal = () => {
     <Modal
       disabled={isLoading}
       isOpen={rentModal.isOpen}
-      title="Cho thuê drone của bạn!"
+      title="Drone cho thuê!"
       actionLabel={actionLabel}
       onSubmit={handleSubmit(onSubmit)}
       secondaryActionLabel={secondaryActionLabel}

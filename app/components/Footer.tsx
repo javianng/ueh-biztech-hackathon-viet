@@ -18,15 +18,15 @@ export default function Footer() {
                         <Logo />
                         <Copyright />
                     </div>
-                    <div className="space-x-2">
+                    <div className="space-x-4 text-center">
                         <Link href="/" className="hover:underline">Nhà</Link>
-                        <Link href="/ContactUs" className="hover:underline">Liên hệ với</Link>
+                        <Link href="/ContactUs" className="hover:underline">Liên hệ</Link>
                         <Link href="/HelpCentre" className="hover:underline">Trung tâm trợ giúp</Link>
                         <Link href="/Terms" className="hover:underline">Điều khoản</Link>
-                        <Link href="/Privacy" className="hover:underline">Sự riêng tư</Link>
+                        <Link href="/Privacy" className="hover:underline">Riêng tư</Link>
                     </div>
                 </div>
-            </Container >
-        </div >
+            </Container>
+        </div>
     )
 }

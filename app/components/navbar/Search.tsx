@@ -23,7 +23,7 @@ const Search = () => {
       return getByValue(locationValue as string)?.label;
     }
 
-    return 'Bất cứ đâu';
+    return 'Địa điểm';
   }, [locationValue, getByValue]);
 
   const durationLabel = useMemo(() => {
@@ -39,7 +39,7 @@ const Search = () => {
       return `${diff} Ngày`;
     }
 
-    return 'Bất kỳ tuần nào'
+    return 'Thời gian'
   }, [startDate, endDate]);
 
   const guestLabel = useMemo(() => {
