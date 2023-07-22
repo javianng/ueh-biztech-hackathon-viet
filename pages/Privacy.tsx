@@ -25,7 +25,7 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <span>
-                    At Monarchs, we are committed to safeguarding the privacy and security of our users' personal information. This Privacy Policy outlines how we collect, use, and protect your data when you access our website and use our services. By using Monarchs, you consent to the practices described in this policy. If you do not agree with any aspect of this Privacy Policy, please do not use our services.
+                    At Monarchs, we are committed to safeguarding the privacy and security of our users&apos; personal information. This Privacy Policy outlines how we collect, use, and protect your data when you access our website and use our services. By using Monarchs, you consent to the practices described in this policy. If you do not agree with any aspect of this Privacy Policy, please do not use our services.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
                     1. Information We Collect:
@@ -59,7 +59,7 @@ function Body() {
                 </span>
                 <br />
                 <span>
-                    c. To personalize your experience on our platform and optimize our website's functionality.
+                    c. To personalize your experience on our platform and optimize our website&apos;s functionality.
                 </span>
                 <br />
                 <span>
@@ -103,10 +103,10 @@ function Body() {
                     Our website may contain links to third-party websites or services. Please note that this Privacy Policy only applies to Monarchs. We have no control over the privacy practices of third parties, and you should review their respective policies.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    7. Children's Privacy:
+                    7. Children&apos;s Privacy:
                 </h2>
                 <span>
-                    Monarchs' services are not intended for individuals under the age of 18. We do not knowingly collect or maintain personal information from children.
+                    Monarchs&apos; services are not intended for individuals under the age of 18. We do not knowingly collect or maintain personal information from children.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
                     8. Your Rights:

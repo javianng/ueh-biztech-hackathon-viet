@@ -25,7 +25,7 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <span>
-                    Welcome to Monarchs! These terms and conditions ("Terms") govern your use of our website and services provided by Monarchs, a platform that connects agriculture drone owners with farmers. By accessing or using our website and services, you agree to be bound by these Terms. Please read them carefully.
+                    Welcome to Monarchs! These terms and conditions (&quot;Terms&quot;) govern your use of our website and services provided by Monarchs, a platform that connects agriculture drone owners with farmers. By accessing or using our website and services, you agree to be bound by these Terms. Please read them carefully.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
                     1. User Eligibility
@@ -55,7 +55,7 @@ function Body() {
                     5. Drone Operator Obligations
                 </h2>
                 <span>
-                    Drone operators must comply with all applicable laws, regulations, and industry standards. They are responsible for maintaining their drone's proper functioning, including necessary licenses, permits, and insurance. Drone operators must also respect farmers' property and privacy rights while performing services.
+                    Drone operators must comply with all applicable laws, regulations, and industry standards. They are responsible for maintaining their drone&apos;s proper functioning, including necessary licenses, permits, and insurance. Drone operators must also respect farmers&apos; property and privacy rights while performing services.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
                     6. Farmer Obligations
@@ -108,7 +108,7 @@ function Body() {
                 <br />
                 <br />
                 <span >
-                    By using Monarchs' website and services, you acknowledge that you have read, understood, and agreed to these Terms and conditions. If you do not agree to these Terms, you may not use our services.
+                    By using Monarchs&apos; website and services, you acknowledge that you have read, understood, and agreed to these Terms and conditions. If you do not agree to these Terms, you may not use our services.
                 </span>
             </div>
         </div>
