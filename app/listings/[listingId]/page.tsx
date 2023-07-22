@@ -7,6 +7,7 @@ import ClientOnly from "@/app/components/ClientOnly";
 import EmptyState from "@/app/components/EmptyState";
 
 import ListingClient from "./ListingClient";
+import Container from "@/app/components/Container";
 
 interface IParams {
   listingId?: string;
@@ -36,5 +37,5 @@ const ListingPage = async ({ params }: { params: IParams }) => {
     </ClientOnly>
   );
 }
- 
+
 export default ListingPage;
