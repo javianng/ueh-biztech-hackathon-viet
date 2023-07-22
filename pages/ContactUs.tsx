@@ -17,7 +17,7 @@ function Hero() {
         <div className="bg-brand-300 w-full h-fit py-32">
             <div className='py-8 px-12'>
                 <h1 className='text-5xl font-bold text-white tracking-wide'>
-                    Need help?
+                    Cần giúp đỡ?
                 </h1>
             </div>
         </div>
@@ -26,13 +26,13 @@ function Hero() {
 
 const PROBLEMS = [
     { problem: '-' },
-    { problem: 'My transactions' },
-    { problem: 'My account' },
-    { problem: 'My listings' },
-    { problem: 'Seller paid tools' },
-    { problem: 'Chat experience' },
-    { problem: 'Search experience' },
-    { problem: 'Report a user or listing' },
+    { problem: 'Giao dịch của tôi' },
+    { problem: 'Tài khoản của tôi' },
+    { problem: 'Danh sách của tôi' },
+    { problem: 'Công cụ trả tiền của người bán' },
+    { problem: 'Trải nghiệm trò chuyện' },
+    { problem: 'Trải nghiệm tìm kiếm' },
+    { problem: 'Báo cáo người dùng hoặc danh sách' },
 ]
 
 function Body() {
@@ -41,7 +41,7 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <h2 className='text-xl tracking-wide'>
-                    What do you need help with?
+                    Bạn cần giúp về?
                 </h2>
                 <div className=" w-full">
                     <Listbox value={selected} onChange={setSelected}>
@@ -98,43 +98,43 @@ function Body() {
                     <label className='text-xl tracking-wide'>
                         <div >
                             <span>
-                                What is it about
+                                Nó nói về cái gì
                             </span>
                         </div>
                         <input
                             type="text"
                             name="name"
                             className='w-full shadow-md border-1 rounded-lg my-4 h-9 pl-3 text-sm'
-                            placeholder='More details about the problem you are facing.' />
+                            placeholder='Thêm chi tiết về vấn đề bạn đang gặp phải.' />
                     </label>
                     <label className='text-xl tracking-wide'>
                         <div >
                             <span>
-                                Description
+                                Sự miêu tả
                             </span>
                         </div>
                         <input
                             type="text"
                             name="name"
                             className='w-full shadow-md border-1 rounded-lg my-4 h-24 pl-3 text-sm'
-                            placeholder='More details about the problem you are facing.' />
+                            placeholder='Thêm chi tiết về vấn đề bạn đang gặp phải.' />
                     </label>
                     <label className='text-xl tracking-wide'>
                         <div >
                             <span>
-                                Country
+                                Quốc gia
                             </span>
                         </div>
                         <input
                             type="text"
                             name="name"
                             className='w-full shadow-md border-1 rounded-lg my-4 h-9 pl-3 text-sm'
-                            placeholder='Vietnam' />
+                            placeholder='Việt Nam' />
                     </label>
                     <label className='text-xl tracking-wide'>
                         <div >
                             <span>
-                                Your email address*
+                                Địa chỉ email của bạn*
                             </span>
                         </div>
                         <input
@@ -148,20 +148,20 @@ function Body() {
                     >
                         <div >
                             <span>
-                                Monarchs Username*
+                                Tên người dùng Monarch*
                             </span>
                         </div>
                         <input
                             type="text"
                             name="name"
                             className='w-full shadow-md border-1 rounded-lg my-4 h-9 pl-3 text-sm'
-                            placeholder='example username'
+                            placeholder='tên người dùng ví dụ'
                         />
                     </label>
 
                     <input
                         type="submit"
-                        value="Submit"
+                        value="Nộp"
                         className='mt-9 px-6 py-2 bg-brand-50 rounded-lg font-bold border-2 border-brand-300 hover:bg-brand-100 transition-all'
                     />
                 </form>
