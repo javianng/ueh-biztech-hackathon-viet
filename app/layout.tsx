@@ -14,37 +14,37 @@ import getCurrentUser from './actions/getCurrentUser';
 import Footer from './components/Footer';
 
 export const metadata = {
-  title: 'Monarchs',
-  description: 'Rent, Save, Earn',
+    title: 'Monarchs',
+    description: 'Rent, Save, Earn',
 }
 
 const font = Nunito({
-  subsets: ['latin'],
+    subsets: ['latin'],
 });
 
 export default async function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  const currentUser = await getCurrentUser();
+    const currentUser = await getCurrentUser();
 
-  return (
-    <html lang="en">
-      <body className={font.className}>
-        <ClientOnly>
-          <ToasterProvider />
-          <LoginModal />
-          <RegisterModal />
-          <SearchModal />
-          <RentModal />
-          <Navbar currentUser={currentUser} />
-          <Footer />
-        </ClientOnly>
-        <div className="pb-36 pt-28">
-          {children}
-        </div>
-      </body>
-    </html>
-  )
+    return (
+        <html lang="en">
+            <body className={font.className}>
+                <ClientOnly>
+                    <ToasterProvider />
+                    <LoginModal />
+                    <RegisterModal />
+                    <SearchModal />
+                    <RentModal />
+                    <Navbar currentUser={currentUser} />
+                    <Footer />
+                </ClientOnly>
+                <div className="pb-36 pt-28">
+                    {children}
+                </div>
+            </body>
+        </html>
+    )
 }
