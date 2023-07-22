@@ -25,7 +25,7 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <span>
-                    Chào mừng đến với Monarchs! Những điều khoản và điều kiện ("Điều khoản") này điều chỉnh việc sử dụng trang web và dịch vụ của chúng tôi được cung cấp bởi Monarchs, một nền tảng kết nối các doanh nghiệp drone nông nghiệp với những người nông dân. Bằng cách truy cập hoặc sử dụng trang web và dịch vụ của chúng tôi, nếu bạn đồng ý tuân thủ những Điều khoản này. Vui lòng đọc kỹ chúng.
+                    Chào mừng đến với Monarchs! Những điều khoản và điều kiện (&quot;Điều khoản&quot;) này điều chỉnh việc sử dụng trang web và dịch vụ của chúng tôi được cung cấp bởi Monarchs, một nền tảng kết nối các doanh nghiệp drone nông nghiệp với những người nông dân. Bằng cách truy cập hoặc sử dụng trang web và dịch vụ của chúng tôi, nếu bạn đồng ý tuân thủ những Điều khoản này. Vui lòng đọc kỹ chúng.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
                     1. Điều kiện sử dụng dịch vụ
