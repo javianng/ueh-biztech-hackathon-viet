@@ -23,7 +23,7 @@ export const categories = [
     description: 'This drone monitors fields.',
   },
   {
-    label: 'Planting & Seeding',
+    label: 'Seeding, Planting',
     icon: TbBrandSnapseed,
     description: 'This drone plants and seeds!',
   },
@@ -33,7 +33,7 @@ export const categories = [
     description: 'This drone sprays water!',
   },
   {
-    label: 'Security',
+    label: 'Security Surveillance',
     icon: MdOutlineSecurity,
     description: 'This drone does surveillance!',
   },

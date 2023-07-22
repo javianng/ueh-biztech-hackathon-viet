@@ -32,6 +32,7 @@
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.10.1",
     "react-leaflet": "^4.2.1",
+    "react-live-chat-loader": "^2.8.1",
     "react-select": "^5.7.2",
     "react-spinners": "^0.13.8",
     "swr": "^2.1.1",
