@@ -14,7 +14,7 @@ const font = Nunito({
 function Hero() {
     return (
         <div className="bg-brand-300 w-full h-fit py-32">
-            <div className='p-8'>
+            <div className='py-8 px-12'>
                 <h1 className='text-5xl font-bold text-white tracking-wide'>
                     Hello!
                     <br />
@@ -63,7 +63,7 @@ function DisclosureCard({ question, answer }: DisclosureCardProps) {
         <Disclosure>
             {({ open }) => (
                 <>
-                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-brand-50 px-4 py-2 text-left font-medium text-brand-300 hover:bg-brand-50 focus:outline-none focus-visible:ring focus-visible:ring-brand-300 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-brand-50 px-4 py-5 text-left font-medium text-brand-300 hover:bg-brand-50 focus:outline-none focus-visible:ring focus-visible:ring-brand-300 focus-visible:ring-opacity-75">
                         <span>{question}</span>
                         <ChevronUpIcon
                             className={`${open ? 'rotate-180 transform' : ''
