@@ -87,6 +87,8 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
         {description}
       </div>
       <hr />
+      <iframe src="https://www.youtube.com/embed/ttfEcYIe8_g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      <hr />
       <Map center={coordinates} />
     </div>
   );
