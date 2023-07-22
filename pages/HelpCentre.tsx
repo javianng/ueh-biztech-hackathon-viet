@@ -16,9 +16,9 @@ function Hero() {
         <div className="bg-brand-300 w-full h-fit py-32">
             <div className='py-8 px-12'>
                 <h1 className='text-5xl font-bold text-white tracking-wide'>
-                    Hello!
+                    Xin chào!
                     <br />
-                    How can we help you?
+                    Làm thế nào chúng tôi có thể giúp bạn?
                 </h1>
                 <div className="pt-4 relative mx-auto text-gray-600">
                     <input
@@ -36,20 +36,20 @@ function Hero() {
 
 const DETAILS = [
     {
-        question: "What is Monarchs?",
-        answer: "Monarchs is a cutting-edge startup that has revolutionized the agriculture industry with its innovative platform, which operates on a concept similar to Airbnb but specifically tailored for agriculture drones. As the first-of-its-kind service, Monarchs brings together drone operators and farmers in a seamless digital marketplace, providing an efficient and cost-effective solution for aerial crop monitoring and precision agriculture. Farmers can easily access a wide array of certified and experienced drone pilots, equipped with state-of-the-art equipment, to carry out essential tasks such as crop scouting, pest detection, and crop health assessment. Through Monarchs' user-friendly interface, farmers can effortlessly schedule drone flights, track progress, and receive comprehensive data and analysis to optimize their farming practices. By embracing this groundbreaking technology, Monarchs is empowering farmers to make data-driven decisions, increase yields, and reduce environmental impact, ultimately leading to a more sustainable and productive future for agriculture.",
+        question: "Giới thiệu về Monarchs?",
+        answer: "Monarchs là một công ty khởi nghiệp tiên phong đã cách mạng hóa ngành nông nghiệp với nền tảng đột phá của mình, hoạt động dựa trên một khái niệm tương tự như Airbnb nhưng đặc biệt dành riêng cho máy bay không người lái trong nông nghiệp. Là dịch vụ đầu tiên theo phương pháp này, Monarchs kết hợp các doanh nghiệp sở hữu máy bay không người lái và các nhà nông trong một thị trường số thuận tiện, cung cấp giải pháp hiệu quả và tiết kiệm chi phí cho việc giám sát cây trồng từ trên cao và nông nghiệp chính xác. Nhà nông có thể dễ dàng truy cập vào một loạt các máy bay không người lái được chứng nhận và có kinh nghiệm, trang bị với thiết bị hiện đại, để thực hiện các nhiệm vụ quan trọng như kiểm tra cây trồng, phát hiện sâu bệnh và đánh giá sức khỏe cây trồng. Thông qua giao diện thân thiện với người dùng của Monarchs, nhà nông có thể dễ dàng lên lịch bay máy bay không người lái, theo dõi tiến độ và nhận thông tin và phân tích chi tiết để tối ưu hóa phương pháp trồng trọt của họ. Bằng cách tiếp nhận công nghệ đột phá này, Monarchs đang hỗ trợ nhà nông đưa ra các quyết định dựa trên dữ liệu, tăng năng suất và giảm tác động đến môi trường, điều này cuối cùng dẫn đến một tương lai bền vững và hiệu quả hơn cho nông nghiệp.",
     },
     {
-        question: "How do I sign up and start renting on Monarchs?",
-        answer: "Log onto Monarchs.com and click 'Sign up'. Follow the steps to sign up as a user. After sign-up is completed, you can immediately start renting your preferred drone.",
+        question: "Cách đăng ký và bắt đầu thuê trên Monarchs?",
+        answer: "Đăng nhập vào trang Monarchs.com và nhấp vào 'Đăng ký'. Làm theo các bước để đăng ký tài khoản người dùng. Sau khi hoàn tất đăng ký, bạn có thể ngay lập tức bắt đầu thuê drone ưa thích của mình.",
     },
     {
-        question: "Are there any membership fees to join Monarchs?",
-        answer: "There are no charges to users. We take some commission from each purchase to improve our system and provide warantty services.",
+        question: "Có phí đăng ký thành viên trên Monarchs không?",
+        answer: "Chúng tôi không có bất kỳ chi phí nào cho người dùng. Chúng tôi thu một số tiền hoa hồng từ mỗi giao dịch để cải thiện hệ thống và cung cấp dịch vụ bảo hành.",
     },
     {
-        question: "How can I be assured of good quality equipment from Monarchs?",
-        answer: "All equipment listed on Monarchs is of good quality because: 1. All Partner sign-up requests will be individually vetted and approved by Monarchs Team based on their background and qualifications. 2. All equipment listed by Partners will be individually reviewed by the Monarchs Team before being published to ensure accurate information and acceptable equipment age. Otherwise, we will reject the equipment listing. 3. If the equipment is delivered not according to specification and is not usable, the full amount will be refunded to you or we will replace it with equivalent equipment. Also, you will be presented with all the information when you search for your equipment. This includes the brand, model, equipment pictures, equipment specifications, and manufacturing year. This will help you make better decisions about the right equipment.",
+        question: "Làm thế nào để đảm bảo chất lượng thiết bị tốt từ Monarchs?",
+        answer: "Tất cả các thiết bị được liệt kê trên Monarchs đều đảm bảo chất lượng tốt vì: 1. Mọi yêu cầu đăng ký đối tác sẽ được phê duyệt bởi đội ngũ Monarchs dựa trên nền tảng và trình độ của chúng tôi. 2. Tất cả các thiết bị được liệt kê bởi đối tác đều được xem xét bởi đội ngũ Monarchs trước khi được đưa vào dịch vụ để đảm bảo thông tin chính xác và tuổi thọ thiết bị được chấp nhận. Nếu không đạt yêu cầu này thì chúng tôi sẽ từ chối đăng ký thiết bị đó. 3. Nếu thiết bị được giao không đúng theo thông số kỹ thuật và không sử dụng được, toàn bộ số tiền sẽ được hoàn lại cho bạn hoặc chúng tôi sẽ thay thế nó bằng thiết bị tương đương. Bên cạnh đó, thông tin về thương hiệu, model, hình ảnh thiết bị, thông số kỹ thuật và năm sản xuất cũng sẽ được cung cấp cho bạn khi tìm kiếm thiết bị. Điều này sẽ giúp bạn đưa ra quyết định tốt hơn về thiết bị phù hợp với nhu cầu của mình.",
     },
 ]
 

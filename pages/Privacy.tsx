@@ -13,7 +13,7 @@ function Hero() {
         <div className="bg-brand-300 w-full h-fit py-32">
             <div className='py-8 px-12'>
                 <h1 className='text-5xl font-bold text-white tracking-wide'>
-                    Privacy Policy
+                    Chính sách bảo mật
                 </h1>
             </div>
         </div>
@@ -25,109 +25,109 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <span>
-                    At Monarchs, we are committed to safeguarding the privacy and security of our users&apos; personal information. This Privacy Policy outlines how we collect, use, and protect your data when you access our website and use our services. By using Monarchs, you consent to the practices described in this policy. If you do not agree with any aspect of this Privacy Policy, please do not use our services.
+                    Tại Monarchs, chúng tôi cam kết bảo vệ sự riêng tư và an ninh thông tin cá nhân của người dùng. Chính sách bảo mật này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu của bạn khi bạn truy cập vào trang web và sử dụng dịch vụ của chúng tôi.Sử dụng Monarchs đồng nghĩa với việc bạn cần đồng thuận với các thông lệ được miêu tả trong chính sách này. Nếu bạn không đồng ý với bất kỳ khía cạnh nào của Chính sách bảo mật này, vui lòng không sử dụng dịch vụ của chúng tôi.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    1. Information We Collect:
+                    1. Thông tin chúng tôi thu thập
                 </h2>
                 <span>
-                    We may collect two types of information from our users:
+                    Chúng tôi có thể thu thập hai loại thông tin từ người dùng của mình:
                 </span>
                 <br />
                 <br />
                 <span>
-                    a. Personal Information: This includes information provided during account registration, such as your name, email address, contact details, and payment information.
+                    a. Thông tin cá nhân: Bao gồm thông tin được cung cấp trong quá trình đăng ký tài khoản, như tên, địa chỉ email, thông tin liên hệ và thông tin thanh toán.
                 </span>
                 <br />
                 <span>
-                    b. Usage Information: We automatically collect data related to your interactions with our website and services, including IP addresses, device information, and browsing activity.
+                    b. Thông tin sử dụng: Chúng tôi tự động thu thập dữ liệu liên quan đến tương tác của bạn trên trang web và dịch vụ của chúng tôi, bao gồm địa chỉ IP, thông tin thiết bị và hoạt động duyệt web.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    2. How We Use Your Information:
+                    2. Chúng tôi sử dụng thông tin của bạn như thế nào
                 </h2>
                 <span>
-                    We use the information we collect for the following purposes:
+                    Chúng tôi sử dụng thông tin chúng tôi thu thập cho các mục đích sau:
                 </span>
                 <br />
                 <br />
                 <span>
-                    a. To provide and improve our services, including connecting farmers with drone operators and facilitating transactions.
+                    a. Cung cấp và cải tiến dịch vụ của chúng tôi, bao gồm kết nối nông dân với nhà điều hành máy bay không người lái và xử lý giao dịch.
                 </span>
                 <br />
                 <span>
-                    b. To communicate with you regarding your account, service updates, and promotional offers.
+                    b. Tương tác với bạn thông qua tài khoản của bạn, cập nhật dịch vụ và các chương trình khuyến mại.
                 </span>
                 <br />
                 <span>
-                    c. To personalize your experience on our platform and optimize our website&apos;s functionality.
+                    c. Cá nhân hóa trải nghiệm của bạn trên nền tảng của chúng tôi và tối ưu hóa tính năng của trang web của chúng tôi.
                 </span>
                 <br />
                 <span>
-                    d. To analyze user behavior and preferences to enhance our services and website performance.
+                    d. Phân tích hành vi và nhu cầu của người dùng để nâng cao dịch vụ và hiệu suất trang web của chúng tôi.
                 </span>
                 <br />
                 <span>
-                    e. To comply with legal obligations and enforce our Terms and Conditions.
+                    e. Tuân thủ các nghĩa vụ pháp lý và thực thi Điều khoản và Điều kiện của chúng tôi.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    3. Data Sharing and Disclosure:
+                    3. Chia sẻ và tiết lộ dữ liệu
                 </h2>
                 <br />
                 <span>
-                    a. We may share your information with drone operators and farmers as necessary to facilitate service requests and transactions.
+                    a. Chúng tôi có thể chia sẻ thông tin của bạn với nhà điều hành máy bay điều khiển từ xa và những người nông dân cần đến chúng để hỗ trợ yêu cầu dịch vụ và giao dịch.
                 </span>
                 <br />
                 <span>
-                    b. We may share data with service providers, business partners, or third-party contractors who help us operate, improve, or promote our platform.
+                    b. Chúng tôi có thể chia sẻ dữ liệu với các nhà cung cấp dịch vụ, đối tác kinh doanh hoặc nhà thầu bên thứ ba giúp chúng tôi vận hành, cải tiến hoặc quảng cáo nền tảng của chúng tôi.
                 </span>
                 <br />
                 <span>
-                    c. Monarchs will not sell, trade, or rent your personal information to third parties for marketing purposes without your explicit consent.
+                    c. Monarchs sẽ không bán, giao dịch hoặc cho thuê thông tin cá nhân của bạn cho bên thứ ba để tiếp thị mà không có sự đồng ý rõ ràng của bạn.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    4. Data Security:
+                    4. Bảo mật dữ liệu
                 </h2>
                 <span>
-                    We implement industry-standard security measures to protect your data from unauthorized access, alteration, disclosure, or destruction. However, no data transmission over the internet can be entirely secure, and we cannot guarantee the absolute security of your information.
+                    Chúng tôi triển khai các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ dữ liệu của bạn khỏi việc truy cập, thay đổi, tiết lộ hoặc phá rối trái phép. Tuy nhiên, không có dữ liệu nào qua Internet là hoàn toàn an toàn, và chúng tôi không thể đảm bảo tuyệt đối về an ninh thông tin của bạn.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    5. Cookies and Tracking Technologies:
+                    5. Cookies và Công nghệ theo dõi
                 </h2>
                 <span>
-                    We use cookies and similar tracking technologies to collect usage information and enhance user experience. You can manage your cookie preferences through your browser settings.
+                    Chúng tôi sử dụng cookies và các công nghệ theo dõi tương tự để thu thập thông tin về cách sử dụng và nâng cao trải nghiệm người dùng. Bạn có thể chủ động thay đổi cookies của mình thông qua cài đặt trình duyệt của bạn.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    6. Third-Party Links:
+                    6. Liên kết đến bên thứ ba
                 </h2>
                 <span>
-                    Our website may contain links to third-party websites or services. Please note that this Privacy Policy only applies to Monarchs. We have no control over the privacy practices of third parties, and you should review their respective policies.
+                    Trang web của chúng tôi có thể chứa các liên kết đến các trang web hoặc dịch vụ của bên thứ ba. Vui lòng lưu ý rằng Chính sách bảo mật này chỉ áp dụng cho Monarchs. Chúng tôi không kiểm soát các thực tiễn bảo mật của bên thứ ba, và bạn nên xem xét các chính sách riêng của họ.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    7. Children&apos;s Privacy:
+                    7. Chính sách bảo mật đối với trẻ em
                 </h2>
                 <span>
-                    Monarchs&apos; services are not intended for individuals under the age of 18. We do not knowingly collect or maintain personal information from children.
+                    Dịch vụ của Monarchs không dành cho cá nhân dưới 18 tuổi. Chúng tôi không có ý định thu thập hoặc lưu trữ thông tin cá nhân của trẻ em.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    8. Your Rights:
+                    8. Quyền của khách hàng
                 </h2>
                 <span>
-                    You have the right to access, update, correct, and delete your personal information. If you wish to exercise these rights or have any concerns about your data, please contact us using the information provided below.
+                    Bạn có quyền truy cập, cập nhật, sửa đổi và xóa thông tin cá nhân của mình. Nếu bạn muốn thực hiện những quyền này hoặc có bất kỳ lo ngại nào về dữ liệu của bạn, vui lòng liên hệ với chúng tôi bằng thông tin được cung cấp bên dưới.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    9. Changes to this Privacy Policy:
+                    9. Thay đổi Chính sách Bảo mật
                 </h2>
                 <span>
-                    We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. We will post any revisions on this page, and the updated Privacy Policy will be effective upon posting.
+                    Chúng tôi có thể cập nhật Chính sách Bảo mật này từ thời gian này đến thời gian khác để phản ánh các thay đổi trong thực tiễn hoạt động hoặc vì lý do pháp lý, hoạt động hoặc quy định. Bất kỳ sửa đổi nào trên trang này cũng sẽ đều được chúng tôi đăng lên, và Chính sách Bảo mật đã được cập nhật sẽ có hiệu lực ngay sau khi đăng bài.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    10. Contact Us
+                    10. Liên hệ với chúng tôi
                 </h2>
                 <span>
-                    If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at monarchs@gmail.com.
+                    Nếu bạn có bất kỳ câu hỏi, quan ngại hoặc yêu cầu nào liên quan đến Chính sách Bảo mật này hoặc thực tiễn về dữ liệu của chúng tôi, vui lòng liên hệ với chúng tôi theo địa chỉ email / số điện thoại liên hệ monarchs@gmail.com.
                 </span>
                 <span >
-                    This Privacy Policy was last updated on 22 July 2023.
+                    Chính sách Bảo mật này đã được cập nhật lần cuối vào 22 July 2023.
                 </span>
             </div>
         </div>

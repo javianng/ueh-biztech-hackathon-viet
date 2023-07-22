@@ -13,7 +13,7 @@ function Hero() {
         <div className="bg-brand-300 w-full h-fit py-32">
             <div className='py-8 px-12'>
                 <h1 className='text-5xl font-bold text-white tracking-wide'>
-                    Terms and Conditions
+                    Điều khoản và điều kiện
                 </h1>
             </div>
         </div>
@@ -25,90 +25,90 @@ function Body() {
         <div className="pb-24 sm:pb-48 pt-8">
             <div className="w-full px-8 sm:px-24 pt-6 space-y-9">
                 <span>
-                    Welcome to Monarchs! These terms and conditions (&quot;Terms&quot;) govern your use of our website and services provided by Monarchs, a platform that connects agriculture drone owners with farmers. By accessing or using our website and services, you agree to be bound by these Terms. Please read them carefully.
+                    Chào mừng đến với Monarchs! Những điều khoản và điều kiện ("Điều khoản") này điều chỉnh việc sử dụng trang web và dịch vụ của chúng tôi được cung cấp bởi Monarchs, một nền tảng kết nối các doanh nghiệp drone nông nghiệp với những người nông dân. Bằng cách truy cập hoặc sử dụng trang web và dịch vụ của chúng tôi, nếu bạn đồng ý tuân thủ những Điều khoản này. Vui lòng đọc kỹ chúng.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    1. User Eligibility
+                    1. Điều kiện sử dụng dịch vụ
                 </h2>
                 <span>
-                    To use our services, you must be at least 18 years old and capable of forming a legally binding contract. By using Monarchs, you represent and warrant that you meet these eligibility requirements.
+                    Để sử dụng dịch vụ của chúng tôi, bạn phải đủ 18 tuổi và có khả năng ký kết hợp đồng pháp lý. Bằng cách sử dụng Monarchs, bạn đại diện và bảo đảm rằng bạn đáp ứng những yêu cầu đủ điều kiện này.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    2. User Accounts
+                    2. Tài khoản người dùng
                 </h2>
                 <span>
-                    Creating a user account is required to access our services fully. You are responsible for maintaining the confidentiality of your account credentials and any activities that occur under your account. Please notify us immediately if you suspect any unauthorized use of your account.
+                    Việc tạo tài khoản người dùng là bắt buộc để truy cập đầy đủ vào dịch vụ của chúng tôi. Bạn có  trách nhiệm duy trì tính bảo mật của thông tin đăng nhập tài khoản của bạn và bất kỳ hoạt động nào xảy ra dưới tài khoản của bạn. Vui lòng thông báo cho chúng tôi ngay lập tức nếu bạn nghi ngờ bất kỳ việc sử dụng tài khoản của bạn không được ủy quyền.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    3. Drone Operator Registration
+                    3. Đăng ký nhà điều khiển drone
                 </h2>
                 <span>
-                    Drone operators must undergo a thorough registration process, including providing accurate and up-to-date information. Monarchs reserves the right to verify the validity of the submitted information and may decline or suspend registration at our discretion.
+                    Những người điều khiển drone đã trải qua quá trình đăng ký chặt chẽ, bao gồm cung cấp thông tin chính xác và cập nhật. Monarchs có quyền xác minh tính hợp lệ của thông tin đã được đăng ký và có thể từ chối hoặc tạm ngừng đăng ký theo quyết định của chúng tôi.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    4. Services and Transactions
+                    4. Dịch vụ và Giao dịch
                 </h2>
                 <span>
-                    Monarchs facilitates the connection between drone operators and farmers. We do not operate or control the drones, and all services are provided by independent drone operators. Any transactions conducted through our platform are solely between the drone operator and the farmer. Monarchs is not a party to these transactions and disclaims any liability arising from them.
+                    Monarchs tạo điều kiện cho kết nối giữa nhà điều khiển drone và người nông dân. Chúng tôi không vận hành hoặc kiểm soát các drone và tất cả các dịch vụ được cung cấp bởi các nhà điều khiển drone độc lập. Bất kỳ giao dịch nào được thực hiện thông qua nền tảng của chúng tôi đều chỉ liên quan giữa nhà điều khiển drone và người nông dân. Monarchs không phải là một bên trong các giao dịch này và từ chối bất kỳ trách nhiệm phát sinh từ chúng.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    5. Drone Operator Obligations
+                    5. Nghĩa vụ của doanh nghiệp sở hữu drone
                 </h2>
                 <span>
-                    Drone operators must comply with all applicable laws, regulations, and industry standards. They are responsible for maintaining their drone&apos;s proper functioning, including necessary licenses, permits, and insurance. Drone operators must also respect farmers&apos; property and privacy rights while performing services.
+                    Những doanh nghiệp sở hữu drone phải tuân thủ tất cả các luật, quy định và tiêu chuẩn ngành nghề áp dụng. Họ chịu trách nhiệm duy trì chức năng của drone, bao gồm các giấy phép, giấy tờ cần thiết và bảo hiểm. Những doanh nghiệp sở hữu drone cũng phải tôn trọng quyền sở hữu tài sản và quyền riêng tư của người nông dân trong quá trình thực hiện dịch vụ.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    6. Farmer Obligations
+                    6. Nghĩa vụ của người nông dân
                 </h2>
                 <span>
-                    Farmers using our platform must ensure their requests comply with local regulations and obtain any necessary permissions for drone flights over their land. Farmers shall provide accurate information about the tasks they require the drone to perform.
+                    Những người nông dân sử dụng nền tảng của chúng tôi phải đảm bảo yêu cầu của họ tuân thủ các quy định địa phương và có được bất kỳ phép phù hợp nào để chúng tôi bàn giao drone qua lô đất của họ. Người nông dân phải cung cấp thông tin chính xác về các nhiệm vụ mà họ yêu cầu drone thực hiện.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    7. Content Guidelines:
+                    7. Nội dung vi phạm
                 </h2>
                 <span>
-                    Users must not post offensive, harmful, or misleading content on our platform. Monarchs reserves the right to remove or modify any content that violates these guidelines.
+                    Người dùng không được đăng nội dung xúc phạm, gây hại hoặc lừa đảo trên nền tảng của chúng tôi. Monarchs có quyền loại bỏ hoặc sửa đổi bất kỳ nội dung nào vi phạm các hướng dẫn này.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    8. Payments and Fees
+                    8. Thanh toán và Phí
                 </h2>
                 <span>
-                    Payments for drone services will be handled through our secure payment system. Monarchs may charge service fees for connecting farmers with drone operators. Any applicable fees and payment terms will be clearly communicated to users.
+                    Thanh toán cho các dịch vụ drone sẽ được xử lý thông qua hệ thống thanh toán an toàn của chúng tôi. Monarchs có thể tính phí dịch vụ cho việc kết nối người nông dân với nhà điều khiển drone. Bất kỳ khoản phí nào được áp dụng và các điều khoản thanh toán sẽ được thông báo rõ ràng cho người dùng.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    9. Intellectual Property
+                    9. Sở hữu trí tuệ
                 </h2>
                 <span>
-                    All content and intellectual property on the Monarchs website, including logos, text, graphics, and software, are the property of Monarchs or its licensors and are protected by copyright and other intellectual property laws. Users may not use, copy, or distribute any content without our express written permission.
+                    Tất cả nội dung và tài sản trí tuệ trên trang web của Monarchs, bao gồm logo, văn bản, đồ họa và phần mềm, là tài sản của Monarchs hoặc các nhà cấp phép và được bảo vệ bởi luật bản quyền và các luật sở hữu trí tuệ khác. Người dùng không được sử dụng, sao chép hoặc phân phối bất kỳ nội dung nào mà không có sự cho phép bằng văn bản của chúng tôi.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    10. Limitation of Liability
+                    10. Giới hạn trách nhiệm:
                 </h2>
                 <span>
-                    Monarchs shall not be liable for any damages arising from the use of our services or any actions taken by drone operators or farmers. We do not guarantee the quality of drone services or the accuracy of data collected. Users agree to use our platform at their own risk.
+                    Monarchs sẽ không chịu trách nhiệm cho bất kỳ thiệt hại nào phát sinh từ việc sử dụng dịch vụ của chúng tôi hoặc bất kỳ hành động nào của nhà điều khiển drone hay người nông dân. Chúng tôi không đảm bảo chất lượng các dịch vụ drone hoặc độ chính xác của dữ liệu được thu thập. Người dùng đồng ý sử dụng nền tảng của chúng tôi trên quyền riêng của họ.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    11. Indemnity
+                    11. Giải quyết bồi thường
                 </h2>
                 <span>
-                    Users agree to indemnify and hold Monarchs, its affiliates, and their respective officers, directors, and employees harmless from any claims, damages, or liabilities arising out of their use of our services or violation of these Terms.
+                    Người dùng đồng ý đền bù và bảo vệ Monarchs, các công ty liên kết của chúng tôi và các sĩ quan, giám đốc và nhân viên tương ứng khỏi bất kỳ khiếu nại, thiệt hại hoặc trách nhiệm nào phát sinh từ việc sử dụng dịch vụ của chúng tôi hoặc vi phạm các Điều khoản này.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    12. Modifications and Termination
+                    12. Sửa đổi và Chấm dứt hợp đồng/dịch vụ
                 </h2>
                 <span>
-                    Monarchs reserves the right to modify, suspend, or terminate the services or these Terms at any time, with or without notice.
+                    Monarchs có quyền sửa đổi, tạm ngừng hoặc chấm dứt dịch vụ hoặc các Điều khoản này vào bất kỳ thời điểm nào, có hoặc không có thông báo.
                 </span>
                 <h2 className='font-bold text-xl pb-2'>
-                    13. Governing Law and Jurisdiction
+                    13. Luật điều hành và Thẩm quyền
                 </h2>
                 <span>
-                    These Terms are governed by and construed in accordance with the laws of the country, and any disputes shall be subject to the exclusive jurisdiction of the courts in the country.
+                    Các Điều khoản này được quy định theo luật pháp của [Thẩm quyền], và bất kỳ tranh chấp nào sẽ phải tuân thủ thẩm quyền độc quyền của các tòa án tại [Thẩm quyền].
                 </span>
                 <br />
                 <br />
                 <span >
-                    By using Monarchs&apos; website and services, you acknowledge that you have read, understood, and agreed to these Terms and conditions. If you do not agree to these Terms, you may not use our services.
+                    Bằng việc sử dụng trang web và dịch vụ của Monarchs. Nếu bạn không đồng ý với các Điều khoản này, bạn không thể sử dụng dịch vụ của chúng tôi.
                 </span>
             </div>
         </div>
