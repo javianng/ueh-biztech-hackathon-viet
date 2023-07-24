@@ -71,7 +71,6 @@ This section list the major frameworks/libraries used to bootstrap this project.
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
-* [![TypeScript][TypeScript]][TypeScript-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -127,6 +126,3 @@ Project Link: [https://github.com/javianng/ueh-biztech-hackathon-viet](https://g
 
 [TailwindCSS]: https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=
 [TailwindCSS-url]: https://tailwindcss.com/
-
-[TypeScript]: https://img.shields.io/static/v1?style=for-the-badge&message=TypeScript&color=3178C6&logo=TypeScript&logoColor=FFFFFF&label=
-[TypeScript-url]: https://www.typescriptlang.org/
